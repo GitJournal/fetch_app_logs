@@ -5,3 +5,8 @@
 .pub/
 
 build/
+
+.classpath
+.project
+.settings/
+.vscode

@@ -4,10 +4,9 @@ import 'package:flutter/services.dart';
 
 class FetchAppLogs {
   static const MethodChannel _channel =
-      const MethodChannel('fetch_app_logs');
+      const MethodChannel('io.gitjournal/fetch_app_logs');
 
-  static Future<String> get platformVersion async {
-    final String version = await _channel.invokeMethod('getPlatformVersion');
-    return version;
+  static Future<String> dumpAppLogsToFile() async {
+    return await _channel.invokeMethod('dumpAppLogs');
   }
 }

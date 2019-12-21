@@ -1,4 +1,4 @@
-group 'com.example.fetch_app_logs'
+group 'io.gitjournal.fetch_app_logs'
 version '1.0'
 
 buildscript {
