@@ -1,7 +1,7 @@
 name: fetch_app_logs
 description: Fetch all of the logs produced by the application
   during its execution
-version: 0.0.1
+version: 0.0.2
 homepage: https://gitjournal.io
 
 environment:
